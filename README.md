@@ -1,18 +1,17 @@
-</br>
-O que é um Descodificador Widevine L3 ?
-Widevine é um sistema DRM de propriedade do Google que está em uso por muitos serviços populares de streaming para garantir o direito privado de uso.
+# O que é um Descodificador Widevine L3 ?
+<br>
+Widevine é um sistema DRM de propriedade da Google que está em uso por muitos serviços populares de streaming para garantir o direito privado de uso. 
 
-Mas o nível de segurança menos seguro do Widevine, L3, usado na maioria dos navegadores e PCs, é implementado 100% em software (ou seja, sem TEEs de hardware), tornando-o reversível e passível de desvio.
+Mas o nível menos seguro do Widevine é o L3 em função de ser 100% implementado através de software, em outras palavras sem nenhum limitador a nível de hardware  usado na maioria dos navegadores de PCs tornando-o reversível e passível de desvio.
 
-Esta extensão do Chrome demonstra como é possível contornar o Widevine DRM sequestrando chamadas para as Encrypted Media Extensions (EME) do navegador e descriptografando todas as chaves de conteúdo do Widevine transferidas - transformando-o efetivamente em um DRM de chave clara.
+O Widevine DRM permite sequestrar chamadas no Encrypted Media Extensions (EME) do navegador e descriptografar as chaves de conteúdo do Widevine, construindo efetivamente um DRM de chave clara.
 </br>
 </br>
 
-# Bitmovin Demos
 [![bitmovin](http://bitmovin-a.akamaihd.net/webpages/bitmovin-logo-github.png)](http://www.bitmovin.com)
 
 # Introduction
-Welcome to Bitmovin demos. Our demo page is hosted at [bitmovin.com/demos](https://bitmovin.com/demos/).
+Host exemplo de funcionamento [WideVine](https://bitmovin.com/demos/).
 
 ## Testing a demo
 
